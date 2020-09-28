@@ -32,13 +32,13 @@ app.use(express.json());
 //Upon start a webhook is registered with twitter
 //Upon closure the webhook is removed from twitter
 
-const twitterAPIKey = "Place your consumer key here";
-const twitterSecretAPIKey = "Place you secret consumer key here";
-const twitterAccessToken = "Place your access token here";
-const twitterSecretAccessToken = "Place your secret access token here";
-const targetUrl = "Place your server's url here";
-const projectId = "Place your dialogflow projectId here";
-const environmentName = "Place your twitter environment name here";
+const twitterAPIKey = "kNdYQ2mTiWTHeJSEUiGsuGYFh";
+const twitterSecretAPIKey = "9W0DJOfX33JlWpfkmfo3D2viw04VtYj8CV9TRswNSYxG7fAMX0";
+const twitterAccessToken = "874194482115293184-JrvNeOjCSJX749U4CYF2Eto7wFK7boQ";
+const twitterSecretAccessToken = "RTsRNVu0cCUg7sgJvAhS3AKVbHfth6O2o9Wb3KKoV2NnF";
+const targetUrl = "";
+const projectId = "derightsevent-mddd";
+const environmentName = "gefit";
 
 const twitterOAuth = {
   consumer_key: twitterAPIKey,
